@@ -1,0 +1,1135 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/test/tools/Smartian/src/Smartian.fsproj": {}
+  },
+  "projects": {
+    "/home/test/tools/Smartian/EVMAnalysis/src/EVMAnalysis.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/EVMAnalysis/src/EVMAnalysis.fsproj",
+        "projectName": "EVMAnalysis",
+        "projectPath": "/home/test/tools/Smartian/EVMAnalysis/src/EVMAnalysis.fsproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/EVMAnalysis/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[4.0.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj",
+        "projectName": "Nethermind.Dirichlet.Numerics",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj",
+        "projectName": "Nethermind.Abi",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Abi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MathNet.Numerics.FSharp": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj",
+        "projectName": "Nethermind.Blockchain",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Blockchain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Mining/Nethermind.Mining.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Mining/Nethermind.Mining.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Stats/Nethermind.Stats.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Stats/Nethermind.Stats.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Store/Nethermind.Store.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Store/Nethermind.Store.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj",
+        "projectName": "Nethermind.Config",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Config/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj",
+        "projectName": "Nethermind.Core.Test",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions.Json": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj",
+        "projectName": "Nethermind.Core",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Extensions.Data.xxHash.core20": {
+              "target": "Package",
+              "version": "[1.0.2.1, )"
+            },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm.Test/Nethermind.Evm.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm.Test/Nethermind.Evm.Test.csproj",
+        "projectName": "Nethermind.Evm.Test",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm.Test/Nethermind.Evm.Test.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj",
+        "projectName": "Nethermind.Evm",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Store/Nethermind.Store.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Store/Nethermind.Store.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj",
+        "projectName": "Nethermind.HashLib",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.HashLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj",
+        "projectName": "Nethermind.Logging",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Logging/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.7, )"
+            },
+            "NLog.StructuredLogging.Json": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "NLog.Targets.Seq": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NLog.Targets.Syslog": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Mining/Nethermind.Mining.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Mining/Nethermind.Mining.csproj",
+        "projectName": "Nethermind.Mining",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Mining/Nethermind.Mining.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Mining/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj",
+        "projectName": "Nethermind.Secp256k1",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Secp256k1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Stats/Nethermind.Stats.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Stats/Nethermind.Stats.csproj",
+        "projectName": "Nethermind.Stats",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Stats/Nethermind.Stats.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Stats/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Store/Nethermind.Store.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Store/Nethermind.Store.csproj",
+        "projectName": "Nethermind.Store",
+        "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Store/Nethermind.Store.csproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Store/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/tools/Smartian/nethermind/src/Nethermind/NuGet.Config",
+          "/home/test/tools/Smartian/nethermind/src/NuGet.config",
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/test/tools/Smartian/src/Smartian.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/test/tools/Smartian/src/Smartian.fsproj",
+        "projectName": "Smartian",
+        "projectPath": "/home/test/tools/Smartian/src/Smartian.fsproj",
+        "packagesPath": "/home/test/.nuget/packages/",
+        "outputPath": "/home/test/tools/Smartian/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/test/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/test/tools/Smartian/EVMAnalysis/src/EVMAnalysis.fsproj": {
+                "projectPath": "/home/test/tools/Smartian/EVMAnalysis/src/EVMAnalysis.fsproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Dirichlet/Nethermind.Dirichlet.Numerics/Nethermind.Dirichlet.Numerics.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm.Test/Nethermind.Evm.Test.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm.Test/Nethermind.Evm.Test.csproj"
+              },
+              "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+                "projectPath": "/home/test/tools/Smartian/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Argu": {
+              "target": "Package",
+              "version": "[5.1.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[4.0.1, )",
+              "generatePathProperty": true
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.9.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

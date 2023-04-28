@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lFrjVXXVkeMARnSjl3aJu1b8nYscjSyTQnEreDSj+jK8yoMgWA+afbVRAVyOnYds77xbx+5Y4oExQ3jGqSbliw==",
+  "success": true,
+  "projectFilePath": "/home/test/tools/Smartian/EVMAnalysis/src/EVMAnalysis.fsproj",
+  "expectedPackageFiles": [
+    "/home/test/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512",
+    "/home/test/.nuget/packages/fsharp.data/4.0.1/fsharp.data.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
