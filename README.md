@@ -16,7 +16,7 @@ $ dotnet build/Smartian.dll fuzz -p <bytecode file> -a <abi file> -t <time limit
 ```
 
 For contracts that provide source code, we first compile to get the ABI and bytecode.
-If the master contract name is not provided, we execute ```writh.sh``` selection of abi and bytecode.
+If the master contract name is not provided, execute ```writh.sh``` selection of abi and bytecode.
 Then, run
 ```
 $ dotnet build/Smartian.dll fuzz -p <bytecode file> -a <abi file> -t <time limit> -o <output dir>
