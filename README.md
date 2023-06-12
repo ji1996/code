@@ -11,10 +11,14 @@ The dataset for evaluation can be found in ```dataset``` directory.
 
 ## Run
 For contracts that provide ABI and bytecode, we can run them directly.
-```$ dotnet build/Smartian.dll fuzz -p <bytecode file> -a <abi file> -t <time limit> -o <output dir>```
+```
+$ dotnet build/Smartian.dll fuzz -p <bytecode file> -a <abi file> -t <time limit> -o <output dir>
+```
 
 For contracts that provide source code, we first compile to get the ABI and bytecode.
 If the master contract name is not provided, we execute ```writh.sh``` selection of abi and bytecode.
 Then, run
-```$ dotnet build/Smartian.dll fuzz -p <bytecode file> -a <abi file> -t <time limit> -o <output dir>```
+```
+$ dotnet build/Smartian.dll fuzz -p <bytecode file> -a <abi file> -t <time limit> -o <output dir>
+```
 
