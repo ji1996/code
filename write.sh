@@ -1,14 +1,4 @@
 #!/bin/bash
-# for line in `cat D1.list`
-# do
-#     arr=(${line//,/ })
-#     f0=${arr[0]}
-#     f1=${arr[1]}
-#     solc --abi ./sol/${f0}.sol -o ./abi/${f0}
-#     solc --bin ./sol/${f0}.sol -o ./abi/${f0}
-# done
-# oldIFS=$IFS
-# IFS=$'\n'
 for file in ./sol/*
 do
     f=`basename ${file} .sol`
@@ -23,6 +13,4 @@ do
             	# echo ${f} >> RE.list
         fi
     done
-    
 done
-# IFS=$oldIFS
