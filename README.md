@@ -9,6 +9,9 @@ The dataset for evaluation can be found in ```dataset``` directory.
 1 corresponds to the D1 dataset in the paper, where the contracts are all CVE contracts.
 2 corresponds to the D2 dataset in the paper, where the contracts are all contracts on Etherscan.
 
+## Installation
+The tool is written in F#, so you have to install .NET to run. Installation step differs for each Linux distribution, please install net5.0. 
+
 ## Run
 For contracts that provide ABI and bytecode, we can run them directly.
 ```
