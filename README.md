@@ -12,7 +12,7 @@ The dataset for evaluation can be found in ```dataset``` directory.
 ## Results
 The experimental results in the paper can be found in ```Results```.
 
-## Installation
+## Environment
 The tool is written in F#, so you have to install .NET to run. Installation step differs for each Linux distribution, please install net5.0. 
 
 ## Run
