@@ -18,13 +18,13 @@ The tool is written in F#, so you have to install .NET to run. Installation step
 ## Run
 For contracts that provide ABI and bytecode, we can run them directly.
 ```
-$ dotnet build/Smartian.dll fuzz -p <bytecode file> -a <abi file> -t <time limit> -o <output dir>
+$ bin/testFuzz <bytecode file> <abi file> <time limit> <output dir>
 ```
 
 We first compile for contracts that provide source code to get the ABI and bytecode.
 If the master contract name is not provided, execute ```writh.sh``` selection of abi and bytecode.
 Then, run
 ```
-$ dotnet build/Smartian.dll fuzz -p <bytecode file> -a <abi file> -t <time limit> -o <output dir>
+$ bin/testFuzz <bytecode file> <abi file> <time limit> <output dir>
 ```
 
