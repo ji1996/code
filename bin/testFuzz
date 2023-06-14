@@ -1,2 +1,2 @@
 #!/bin/bash
-dotnet build/Smartian.dll
+dotnet build/Smartian.dll fuzz -p $1 -a $2 -t $3 -o $4

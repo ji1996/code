@@ -1,0 +1,344 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EVMAnalysis/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "6.0.5",
+          "FSharp.Data": "4.0.1",
+          "B2R2.BinIR": "0.4.0.0",
+          "B2R2.Core": "0.4.0.0",
+          "B2R2.FrontEnd.BinFile": "0.4.0.0",
+          "B2R2.FrontEnd.BinInterface": "0.4.0.0",
+          "B2R2.FrontEnd.BinLifter.Core": "0.4.0.0",
+          "B2R2.MiddleEnd.BinEssence": "0.4.0.0",
+          "B2R2.MiddleEnd.BinGraph": "0.4.0.0",
+          "B2R2.MiddleEnd.Lens": "0.4.0.0",
+          "B2R2.MiddleEnd.Reclaimer": "0.4.0.0"
+        },
+        "runtime": {
+          "EVMAnalysis.dll": {}
+        }
+      },
+      "FSharp.Core/6.0.5": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.522.27404"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Data/4.0.1": {
+        "dependencies": {
+          "FSharp.Core": "6.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Data.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "B2R2.BinIR/0.4.0.0": {
+        "runtime": {
+          "B2R2.BinIR.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.Core/0.4.0.0": {
+        "runtime": {
+          "B2R2.Core.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinFile/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinFile.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinInterface/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinInterface.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.Core/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.Core.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.MiddleEnd.BinEssence/0.4.0.0": {
+        "runtime": {
+          "B2R2.MiddleEnd.BinEssence.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.MiddleEnd.BinGraph/0.4.0.0": {
+        "runtime": {
+          "B2R2.MiddleEnd.BinGraph.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.MiddleEnd.Lens/0.4.0.0": {
+        "runtime": {
+          "B2R2.MiddleEnd.Lens.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.MiddleEnd.Reclaimer/0.4.0.0": {
+        "runtime": {
+          "B2R2.MiddleEnd.Reclaimer.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.Intel/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.Intel.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.ARM32/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.ARM32.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.Optimizer/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.Optimizer.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.TMS320C6000/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.TMS320C6000.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.CIL/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.CIL.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.ARM64/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.ARM64.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.MIPS/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.MIPS.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "B2R2.FrontEnd.BinLifter.EVM/0.4.0.0": {
+        "runtime": {
+          "B2R2.FrontEnd.BinLifter.EVM.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "SHA3Core/1.0.0.1": {
+        "runtime": {
+          "SHA3Core.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EVMAnalysis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FSharp.Core/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FwdQVtpj34xt8vKyFUUeNIS+obWlEnSrSW7y1ivRVts/ZsrUsKyOd0bZehgFhWdnB/NBsa9DCWvNFMTO0XDFcg==",
+      "path": "fsharp.core/6.0.5",
+      "hashPath": "fsharp.core.6.0.5.nupkg.sha512"
+    },
+    "FSharp.Data/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JOwNoRjaqGaeDr1CtotBNd2c4vADDlygB85GpTStSosc+l4gFDSzx9ILyRuC5gkW/kK4JL7EZsFRoY+4/mZz2g==",
+      "path": "fsharp.data/4.0.1",
+      "hashPath": "fsharp.data.4.0.1.nupkg.sha512"
+    },
+    "B2R2.BinIR/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.Core/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinFile/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinInterface/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.Core/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.MiddleEnd.BinEssence/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.MiddleEnd.BinGraph/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.MiddleEnd.Lens/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.MiddleEnd.Reclaimer/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.Intel/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.ARM32/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.Optimizer/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.TMS320C6000/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.CIL/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.ARM64/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.MIPS/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B2R2.FrontEnd.BinLifter.EVM/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SHA3Core/1.0.0.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
