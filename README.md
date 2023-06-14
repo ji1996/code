@@ -22,7 +22,7 @@ $ bin/testFuzz <bytecode file> <abi file> <time limit> <output dir>
 ```
 
 We first compile for contracts that provide source code to get the ABI and bytecode.
-If the master contract name is not provided, execute ```writh.sh``` selection of abi and bytecode.
+If the master contract name is not provided, execute ```write.sh``` selection of abi and bytecode.
 Then, run
 ```
 $ bin/testFuzz <bytecode file> <abi file> <time limit> <output dir>
